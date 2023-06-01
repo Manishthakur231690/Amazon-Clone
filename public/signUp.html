@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+     <!--------------- Google Fonts & Icon ------------------------>
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Diplomata+SC&family=Henny+Penny&family=Lobster&family=Lobster+Two:ital@1&family=Montserrat&family=Patrick+Hand&family=Patua+One&family=Poppins&family=Roboto&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@300&family=Rubik&family=Rubik+Moonrocks&family=Signika+Negative:wght@300&family=Slabo+27px&family=Sriracha&family=Staatliches&family=Tiro+Kannada&family=Ubuntu:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--------------- Google Fonts & Icon ------------------------>
+     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+     <link rel="stylesheet" href="signUp_style.css">
+</head>
+<body>
+
+        <div class="container">
+            <img src="Amazon-logo.jpg" height="45px">
+            
+            <div class="signUp_con">
+                <div>
+                    <p id="heading">Create account</p>
+                    <form>   
+                            <br>
+                            <label>Your Name</label><br>
+                            <input type="text" placeholder="Enter Name"  required>
+                            <br><br>
+                            <label >Email</label><br>
+                            <input type="text" placeholder="Email"  required> 
+                            <br><br>
+                            <label >Password</label><br>
+                            <input type="password" placeholder="At least 6 characters" minlength="6" required> 
+                            <br><br>
+                            <label >Re-enter Password</label><br>
+                            <input type="password" > 
+                            <button type="submit">Create account</button>
+                    </form><br>
+                    <p>Already have an account? <a href="signIn.html"><span style="color: royalblue;">Sign in</span></a></p>
+                </div>    
+            </div>          
+        </div>
+</body>
+</html>
